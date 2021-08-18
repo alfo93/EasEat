@@ -1,0 +1,48 @@
+body {
+    font-family: 'Nunito';
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: #cdac81;
+}
+
+.right {
+    right: 0;
+    background-color: #810000;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+img:hover {
+    webkit-filter: blur(3px); 
+    filter: blur(3px);
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Nunito';
+    color: black !important;
+    font-size: larger;
+}
