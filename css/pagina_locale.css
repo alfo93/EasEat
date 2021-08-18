@@ -1,0 +1,210 @@
+/*.grid-container {
+    display: grid;
+    gap: 0px 0px;
+    grid-template-rows: 100px 300px 200px 500px;
+}*/
+
+
+/* stile delle immagini di banner */
+
+#immagine {
+    grid-area: immagine;
+}
+
+.col-md-12>img {
+    max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 50%;
+    margin-left: 0;
+    margin-right: 0%;
+    object-position: 50% 50%;
+}
+
+.immagineLocale .col-md-12 {
+    height: 18rem;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* stile del nome del locale e delle informazioni generali */
+
+.nome-locale {
+    font-size: 2.7rem;
+    color: #992b0a;
+    padding-left: 5px;
+}
+
+.info-locale {
+    padding-left: 5px;
+}
+
+.indirizzo-locale {
+    padding-left: 5px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 2px;
+    top: -2px;
+    pointer-events: none;
+}
+
+#tasto-prenotazione {
+    background-color: #992b0a;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    width: 250px;
+    place-content: initial;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#TastoPrenotazione span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#TastoPrenotazione span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#TastoPrenotazione:hover span {
+    padding-right: 25px;
+}
+
+#TastoPrenotazione:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.info-tavoli {
+    width: 250px;
+    font-family: 'Nunito';
+    text-align: center;
+    color: black;
+}
+
+#tavolo {
+    overflow: hidden;
+    width: 15px;
+    height: 15px;
+}
+
+.w3-col.s4.tablink.w3-padding-large.w3-hover-red.w3-red {
+    font-size: x-large;
+}
+
+#nTavoli {
+    padding: 0 !important;
+}
+
+#icona {
+    padding: 0 !important;
+}
+
+.d-grid.gap-2.col-6.mx-auto {
+    margin-left: 20px!important;
+    margin-top: 20px !important;
+}
+
+.float-right {
+    float: right!important;
+}
+
+#toRight {
+    border-color: #992b0a;
+    background-color: #992b0a;
+}
+
+#cash {
+    position: relative;
+    right: 25px;
+}
+
+#menu {
+    width: 300px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#vorspeisen {
+    margin: 0 !important;
+    width: 500px !important;
+}
+
+#first {
+    margin: 0 !important;
+    width: 500px !important;
+}
+
+#second {
+    margin: 0 !important;
+    width: 500px !important;
+}
+
+#sweet {
+    margin: 0 !important;
+    width: 500px !important;
+}
+
+#drink {
+    margin: 0 !important;
+    width: 500px !important;
+}
+
+#banner {
+    border-color: #de593f !important;
+    margin-right: 50px;
+}
+
+#bannerHeader {
+    border-color: #de593f !important;
+}
+
+#bannerFooter {
+    border-color: #de593f !important;
+}
+
+#contenuto {
+    padding-left: 100px !important;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#cartBanner {
+    padding-left: 0px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navbar.navbar-expand-md.navbar-light.bg-white.shadow-sm {
+    padding: 0 !important;
+}
+
+#myLink {
+    width: 200px;
+}
+
+#cardBody {
+    padding: 0px;
+}
+
+#paragraph {
+    display: none;
+}
